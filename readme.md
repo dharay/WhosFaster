@@ -9,9 +9,13 @@ eg: In python
 
 `
 def calulateFib(n):
-    if n==0 or n == 1: 
+
+    if n==0 or n == 1:
+    
         return n
-    else: 
+        
+    else:
+    
         return calulateFib(n-1)+calulateFib(n-2) 
 `
 
