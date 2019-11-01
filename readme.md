@@ -7,7 +7,7 @@ http://127.0.0.1:8000/  (hello world)
 The fib endpoint calculates and returns the nth term of fibonacci series and all have the same algo for calculation: 
 eg: In python
 
-`
+```python
 def calulateFib(n):
 
     if n==0 or n == 1:
@@ -17,7 +17,7 @@ def calulateFib(n):
     else:
     
         return calulateFib(n-1)+calulateFib(n-2) 
-`
+```
 
 # Django python:
 prerequisites: django, python3
