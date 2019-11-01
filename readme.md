@@ -6,15 +6,16 @@ http://127.0.0.1:8000/  (hello world)
 
 The fib endpoint calculates and returns the nth term of fibonacci series and all have the same algo for calculation: 
 eg: In python
-'''
+
+`
 def calulateFib(n):
     if n==0 or n == 1: 
         return n
     else: 
         return calulateFib(n-1)+calulateFib(n-2) 
-'''
+`
 
-# django python:
+# Django python:
 prerequisites: django, python3
 
  run: 
@@ -37,7 +38,7 @@ port: 8090
 response time for 35th term ~3.5 sec
 
 
-# Kitura swift
+# Kitura swift:
 run:
 
 swift build
