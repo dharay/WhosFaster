@@ -16,12 +16,12 @@ public class FibonacciController {
 
     @RequestMapping(value = "/fib/{num}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public String getFiboSum(@PathVariable("num") int num) {
-        return "Sum: " + fiboSum(num);
+    public int getFiboSum(@PathVariable("num") int num) {
+        return fiboSum(num);
     }
 
     private int fiboSum(int num) {
-        if (num <= 1) {
+        if (num == 0 || num == 1) {
             return 1;
         } else {
             return fiboSum(num - 1) + fiboSum(num - 2);
