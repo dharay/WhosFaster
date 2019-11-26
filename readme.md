@@ -48,3 +48,28 @@ swift run
 port : 8080
 
 response time for 35th term ~200 msec
+
+# NodeJS(express):
+
+
+run:
+
+node server.js
+
+port :3000
+
+response time for 35th term ~255 msec
+
+# SpringJava:
+
+
+run:
+
+mvn package
+
+java -jar /target/fibonacci-0.0.1-SNAPSHOT.jar 
+
+port :8080
+
+response time for 35th term ~42 msec 😱 #fastest
+
