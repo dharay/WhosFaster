@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
         "state": {
           "branch": null,
-          "revision": "f82e1401f04f62b2e8ce4670456d104466957810",
-          "version": "1.0.50"
+          "revision": "c46a3d41f5b2401d18bcb46d0101cdc5cd13e307",
+          "version": "1.0.52"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
         "state": {
           "branch": null,
-          "revision": "d6616def31a12088034f0a63ed4646772eff5bce",
-          "version": "1.0.50"
+          "revision": "ab2c2aa2fe574969f391c80ee87746be431dee0e",
+          "version": "1.0.52"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/Kitura.git",
         "state": {
           "branch": null,
-          "revision": "728acab53615e662cac6cd5a98391a471907ed16",
-          "version": "2.9.0"
+          "revision": "bbb7462ac3d422cad4480a57ddbd33263c381a7b",
+          "version": "2.9.1"
         }
       },
       {
@@ -69,8 +69,8 @@
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {
           "branch": null,
-          "revision": "e8aabbe95db22e064ad42f1a4a9f8982664c70ed",
-          "version": "1.1.1"
+          "revision": "74d7b91ceebc85daf387ebb206003f78813f71aa",
+          "version": "1.2.0"
         }
       },
       {

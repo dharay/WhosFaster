@@ -15,6 +15,9 @@ def calulateFib(n):
         return calulateFib(n-1)+calulateFib(n-2) 
 ```
 
+Load testing parameters: Transactions,Availability
+    calculated using siege: 100 concurrent calls for 5 sec
+
 # Django python:
 prerequisites: django, python3
 
@@ -26,6 +29,9 @@ port: 8000
 
 response time for 35th term ~3.5 sec
 
+Transactions:                3963 hits
+Availability:               84.39 %
+
 # FastApi python:
 prerequisites: fastApi, uvicorn , python3
 
@@ -36,6 +42,9 @@ prerequisites: fastApi, uvicorn , python3
 port: 8090
 
 response time for 35th term ~3.5 sec
+
+Transactions:               10335 hits
+Availability:              100.00 %
 
 
 # Kitura swift:
@@ -49,6 +58,9 @@ port : 8080
 
 response time for 35th term ~200 msec
 
+Transactions:               16463 hits
+Availability:              100.00 %
+
 # NodeJS(express):
 
 
@@ -59,6 +71,9 @@ node server.js
 port :3000
 
 response time for 35th term ~255 msec
+
+Transactions:               16472 hits
+Availability:              100.00 %
 
 # SpringJava:
 
@@ -73,3 +88,5 @@ port :8080
 
 response time for 35th term ~42 msec 😱 #fastest
 
+Transactions:               16452 hits
+Availability:              100.00 %

@@ -1,4 +1,5 @@
 import Kitura
+//import cfactorial
 
 func fib(n: Int) -> Int{
     if n == 0 || n == 1{
@@ -25,6 +26,18 @@ router.get("/fib/:amt") { request, response, next in
         return next()
     }
     response.send("\(fib(n: amt))")
+    next()
+}
+
+router.get("/c/fib/:amt") { request, response, next in
+    guard let amtString = request.parameters["amt"],
+        let amt = Int(amtString),
+        amt >= 0
+    else {
+        let _ = response.send(status: .badRequest)
+        return next()
+    }
+    response.send("not implemented")
     next()
 }
 
