@@ -15,8 +15,10 @@ def calulateFib(n):
         return calulateFib(n-1)+calulateFib(n-2) 
 ```
 
-Load testing parameters: Transactions,Availability
-    calculated using siege: 100 concurrent calls for 5 sec
+Load testing parameters: 
+    siege creates multiple (100) threads and keeps on calling a specific endpoint on that thread for some (5 sec) time.
+    Transactions - succesfull number of hits
+    Availibility - % of successful hits
 
 # Django python:
 prerequisites: django, python3
@@ -64,6 +66,7 @@ Transactions:               16463 hits
 
 Availability:              100.00 %
 
+
 # NodeJS(express):
 
 
@@ -95,3 +98,8 @@ response time for 35th term ~42 msec 😱 #fastest
 Transactions:               16452 hits
 
 Availability:              100.00 %
+
+
+# Note:
+response time indicates the responsiveness of a language only to this particular algorithm. 
+They may have different results for other operations/algorithms.
