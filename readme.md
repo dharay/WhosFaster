@@ -16,8 +16,11 @@ def calulateFib(n):
 ```
 
 Load testing parameters: 
+
     siege creates multiple (100) threads and keeps on calling a specific endpoint on that thread for some (5 sec) time.
+    
     Transactions - succesfull number of hits
+    
     Availibility - % of successful hits
 
 # Django python:
